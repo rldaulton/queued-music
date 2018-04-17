@@ -1,0 +1,22 @@
+{
+  "name": "[your_app]-SpotifyAuth",
+  "version": "1.0.0",
+  "description": "Spotify Authorization Grant Flow for Android",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "[your_name]",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "spotify-web-api-node" : "2.3.6",
+    "body-parser": "~1.13.3",
+    "async": "^2.0.1",
+    "promise": "^7.1.1"
+  },
+  "engines": {
+    "node": "4.1.1"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "stripe": {
+    "token": "sk_test_bZv2BjNh8YIzM2iOyvhLwA0Y"
+  },
+  "firebase": {
+    "databaseURL": "https://queuedmusic-d9167.firebaseio.com",
+    "storageBucket": "queuedmusic-d9167.appspot.com",
+    "apiKey": "AIzaSyBsBYWUkD70A3JVe7__rrEDxCsu0SiFZe4",
+    "authDomain": "queuedmusic-d9167.firebaseapp.com"
+  }
+}

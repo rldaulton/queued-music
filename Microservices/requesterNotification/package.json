@@ -1,0 +1,13 @@
+{
+  "name": "requesterNotification",
+  "description": "Notifies a user when their song request begins to play",
+  "dependencies": {
+    "firebase-admin": "~4.2.0",
+    "firebase-functions": "^0.5",
+    "express": "^4.14.0",
+    "body-parser": "~1.13.3",
+    "async": "^2.0.1",
+    "promise": "^7.1.1"
+  },
+  "private": true
+}

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Notification Permission View Controller-->
+        <scene sceneID="iE9-mn-kHI">
+            <objects>
+                <viewController storyboardIdentifier="NotificationPermissionViewController" id="Ydq-CW-oqw" customClass="NotificationPermissionViewController" customModule="QueuedMusic" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aUb-9G-khW"/>
+                        <viewControllerLayoutGuide type="bottom" id="nRE-It-NqS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nQa-5k-hkD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_checkin" translatesAutoresizingMaskIntoConstraints="NO" id="Ygy-ek-lDu">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_phone" translatesAutoresizingMaskIntoConstraints="NO" id="1gf-SZ-NlT">
+                                <rect key="frame" x="27" y="-380" width="322" height="609"/>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="nRE-It-NqS" firstAttribute="top" secondItem="Ygy-ek-lDu" secondAttribute="bottom" id="ECU-tA-pNr"/>
+                            <constraint firstAttribute="trailing" secondItem="Ygy-ek-lDu" secondAttribute="trailing" id="bJJ-fX-iRk"/>
+                            <constraint firstItem="1gf-SZ-NlT" firstAttribute="centerX" secondItem="nQa-5k-hkD" secondAttribute="centerX" id="d1g-Ja-sj3"/>
+                            <constraint firstItem="1gf-SZ-NlT" firstAttribute="top" secondItem="nQa-5k-hkD" secondAttribute="top" constant="-380" id="ege-gp-Xyo"/>
+                            <constraint firstItem="Ygy-ek-lDu" firstAttribute="top" secondItem="nQa-5k-hkD" secondAttribute="top" id="k1d-Dd-C40"/>
+                            <constraint firstItem="Ygy-ek-lDu" firstAttribute="leading" secondItem="nQa-5k-hkD" secondAttribute="leading" id="nxi-be-Hlf"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="uvj-Nv-bJR" kind="show" identifier="notificationToLocationSegue" id="Mbo-6Z-pqj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PPm-zf-TwW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="621.60000000000002" y="151.57421289355324"/>
+        </scene>
+        <!--Location Permission View Controller-->
+        <scene sceneID="KbP-1x-Yx1">
+            <objects>
+                <viewController storyboardIdentifier="LocationPermissionViewController" id="uvj-Nv-bJR" customClass="LocationPermissionViewController" customModule="QueuedMusic" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="J9T-VM-kOS"/>
+                        <viewControllerLayoutGuide type="bottom" id="KRm-wa-LeO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Wpv-Zj-MQv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_location_permission" translatesAutoresizingMaskIntoConstraints="NO" id="zJs-5O-NL7">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="zJs-5O-NL7" secondAttribute="trailing" id="4Tf-V0-2qP"/>
+                            <constraint firstItem="KRm-wa-LeO" firstAttribute="top" secondItem="zJs-5O-NL7" secondAttribute="bottom" id="FdX-aq-FHB"/>
+                            <constraint firstItem="zJs-5O-NL7" firstAttribute="top" secondItem="Wpv-Zj-MQv" secondAttribute="top" id="Ifh-vu-fK1"/>
+                            <constraint firstItem="zJs-5O-NL7" firstAttribute="leading" secondItem="Wpv-Zj-MQv" secondAttribute="leading" id="McZ-Yi-O8V"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="1gE-uB-eoM" kind="show" identifier="locationToMainSegue" id="V52-zz-ECz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LZ9-ZW-BoN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1348" y="152"/>
+        </scene>
+        <!--MainTabBarController-->
+        <scene sceneID="LJm-nz-Scp">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" referencedIdentifier="MainTabBarController" id="1gE-uB-eoM" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9q0-4h-HA7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2194" y="170"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg_checkin" width="375" height="667"/>
+        <image name="bg_location_permission" width="375" height="667"/>
+        <image name="img_phone" width="322" height="609"/>
+    </resources>
+</document>

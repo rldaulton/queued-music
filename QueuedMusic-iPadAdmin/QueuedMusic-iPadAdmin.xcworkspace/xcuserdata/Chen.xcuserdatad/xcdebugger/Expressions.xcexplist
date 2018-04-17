@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "QueueViewController.(playTrack(Any) -&gt; ()).(closure #1):QueueViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.player">
+            </PersistentString>
+            <PersistentString
+               value = "auth.session.accessToken">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "VenueView.(setup() -&gt; ()).(closure #1).(closure #1):VenueView.swift">
+      </ContextState>
+      <ContextState
+         contextName = "SpotifyManager.init() -&gt; SpotifyManager:SpotifyManager.swift">
+      </ContextState>
+      <ContextState
+         contextName = "PickerView.initDataSource(start : Int!, end : Int!) -&gt; [String]:PickerView.swift">
+      </ContextState>
+      <ContextState
+         contextName = "QueueViewController.playTrack(Any) -&gt; ():QueueViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "SettingViewController.(loadPlaylists() -&gt; ()).(closure #1):SettingViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ModalTransition.(animateTransition(using : UIViewControllerContextTransitioning) -&gt; ()).(closure #2):ModalAlertViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "transitionContext.viewController(forKey: UITransitionContextViewControllerKey.from) as? UINavigationController">
+            </PersistentString>
+            <PersistentString
+               value = "fromController">
+            </PersistentString>
+            <PersistentString
+               value = "(transitionContext.viewController(forKey: UITransitionContextViewControllerKey.to) as? ModalAlertViewController).containedController.view.frame">
+            </PersistentString>
+            <PersistentString
+               value = "toController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SpotifyManager.(getTrack(url : URL, listPage : SPTListPage?, completion : (SPTListPage?) -&gt; ()) -&gt; ()).(closure #1).(closure #2):SpotifyManager.swift">
+      </ContextState>
+      <ContextState
+         contextName = "MainViewController.(getVenueInfo() -&gt; ()).(closure #1):MainViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.tabController.presentedViewController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "HomeViewController.setupEscrowClicked(Any) -&gt; ():HomeViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.parent as? HomeViewController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "QueueViewController.playNewTrack() -&gt; ():QueueViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.selectedTrackIndex">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SettingViewController.setupClicked(Any) -&gt; ():SettingViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.parent as? AZTabBarController">
+            </PersistentString>
+            <PersistentString
+               value = "self.navigationController">
+            </PersistentString>
+            <PersistentString
+               value = "self.parent?.parent">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SpotifyManager.(getTrack(trackId : String!, completion : (Error?, String?, String?) -&gt; ()) -&gt; ()).(closure #1):SpotifyManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.player">
+            </PersistentString>
+            <PersistentString
+               value = "auth.session">
+            </PersistentString>
+            <PersistentString
+               value = "auth.session.accessToken">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "EscrowDataModel.(loadEscrowSummary(accountID : String!, completion : (Error?) -&gt; ()) -&gt; ()).(closure #1):EscrowDataModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "response.error">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NotificationView.(keyboardWillShow(Notification) -&gt; ()).(closure #1):NotificationView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "center?.frame.origin.y">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "EscrowDataModel.(loadEscrowSummary(accountID : String?, completion : (Error?) -&gt; ()) -&gt; ()).(closure #1):EscrowDataModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "response.error">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AZTabBarController.setupButtons() -&gt; ():AZTabBarController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "HomeViewController.setDataCount(count : Int!, range : Int!) -&gt; ():HomeViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.lineChartView.data">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "QueueViewController.(playNextTrack() -&gt; ()).(closure #2):QueueViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "track.uri.absoluteString">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "QueueViewController.(getTrack(trackId : String!) -&gt; ()).(closure #1):QueueViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "track.duration">
+            </PersistentString>
+            <PersistentString
+               value = "track.album">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "VenueView.onUpdate(Any) -&gt; ():VenueView.swift">
+      </ContextState>
+      <ContextState
+         contextName = "SpotifyManager.(getTrack(trackId : String!, completion : (Error?, String?, String?) -&gt; ()) -&gt; ()).(closure #1).(closure #1):SpotifyManager.swift">
+      </ContextState>
+      <ContextState
+         contextName = "PickerView.pickerView(UIPickerView, attributedTitleForRow : Int, forComponent : Int) -&gt; NSAttributedString?:PickerView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "monthDataSource[row]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SpotifyManager.(getTrack(url : URL, listPage : SPTListPage?, completion : (SPTListPage?) -&gt; ()) -&gt; ()).(closure #1).(closure #1):SpotifyManager.swift">
+      </ContextState>
+      <ContextState
+         contextName = "NewVenueViewController.(keyboardWillShow(Notification) -&gt; ()).(closure #1):NewVenueViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "center?.frame.origin.y">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "HomeViewController.loadEscrowSummary() -&gt; ():HomeViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "EscrowDataModel.shared">
+            </PersistentString>
+            <PersistentString
+               value = "VenueDataModel.shared.currentVenue.paymentId">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "UserDataModel.storeCurrentUser(user : User!) -&gt; ():UserDataModel.swift">
+      </ContextState>
+      <ContextState
+         contextName = "EscrowDataModel.(loadBalanceAmount(accountID : String!, completion : (String?, String?, Error?) -&gt; ()) -&gt; ()).(closure #1):EscrowDataModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "json[&quot;available&quot;][0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "User.init(key : String, json : JSON) -&gt; User?:UserDataModel.swift">
+      </ContextState>
+      <ContextState
+         contextName = "VenueView.(keyboardWillShow(Notification) -&gt; ()).(closure #1):VenueView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "containedController.view.frame">
+            </PersistentString>
+            <PersistentString
+               value = "center?.frame.origin.y">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "QueueViewController.updatePlayingStatus(status : Bool!) -&gt; ():QueueViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.selectedTrackIndex">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TakeoverView.tableView(UITableView, cellForRowAt : IndexPath) -&gt; UITableViewCell:TakeoverView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "UserDataModel.shared.currentUser()?.takeoverID">
+            </PersistentString>
+            <PersistentString
+               value = "playlist.name">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "QueueViewController.(loadTakeoverTracks() -&gt; ()).(closure #1):QueueViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.takeoverTracks">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "EscrowSummary.init(json : JSON) -&gt; EscrowSummary?:EscrowDataModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "json[EscrowSummaryKey.reversedKey].arrayValue">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TrackDataSource.tableView(UITableView, cellForRowAt : IndexPath) -&gt; UITableViewCell:QueueViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "SettingViewController.loadPlaylist() -&gt; ():SettingViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "auth">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CustomerDataModel.(loadCustomerSummary(accountID : String!, completion : (Customer?, Error?) -&gt; ()) -&gt; ()).(closure #1):CustomerDataModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "accountID">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "QueueViewController.getTrack(WithUrl : URL) -&gt; ():QueueViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "player">
+            </PersistentString>
+            <PersistentString
+               value = "url.absoluteString">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NotificationView.(keyboardWillHide(Notification) -&gt; ()).(closure #1):NotificationView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "containedController.view.frame.origin.y">
+            </PersistentString>
+            <PersistentString
+               value = "center?.frame.origin.y">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "VenueView.(setup() -&gt; ()).(closure #1):VenueView.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

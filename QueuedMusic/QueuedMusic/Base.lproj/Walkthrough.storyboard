@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Walkthrough Page View Controller-->
+        <scene sceneID="9Ox-bN-eBj">
+            <objects>
+                <viewController storyboardIdentifier="walkthrough1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="E5B-sL-fvE" customClass="BWWalkthroughPageViewController" customModule="BWWalkthrough" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xC6-8L-Yai"/>
+                        <viewControllerLayoutGuide type="bottom" id="7pL-WF-bT1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HFC-If-KlW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboardingPhone1" translatesAutoresizingMaskIntoConstraints="NO" id="0Hi-j0-BHa">
+                                <rect key="frame" x="89" y="56" width="197" height="338"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboardingText1" translatesAutoresizingMaskIntoConstraints="NO" id="vvS-OU-DuO">
+                                <rect key="frame" x="58" y="435" width="258" height="109"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="109" id="P8D-dE-o6m"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.12156862745098039" green="0.14509803921568626" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="0Hi-j0-BHa" firstAttribute="leading" secondItem="HFC-If-KlW" secondAttribute="leadingMargin" constant="73" id="4av-Gm-9dB"/>
+                            <constraint firstItem="7pL-WF-bT1" firstAttribute="top" secondItem="vvS-OU-DuO" secondAttribute="bottom" constant="123" id="HjL-qL-5k7"/>
+                            <constraint firstItem="0Hi-j0-BHa" firstAttribute="top" secondItem="xC6-8L-Yai" secondAttribute="bottom" constant="36" id="N7Z-9n-Eu7"/>
+                            <constraint firstItem="vvS-OU-DuO" firstAttribute="top" secondItem="0Hi-j0-BHa" secondAttribute="bottom" constant="41" id="WdG-AE-U9a"/>
+                            <constraint firstItem="0Hi-j0-BHa" firstAttribute="centerX" secondItem="vvS-OU-DuO" secondAttribute="centerX" id="lTL-S0-UjX"/>
+                            <constraint firstItem="vvS-OU-DuO" firstAttribute="centerX" secondItem="HFC-If-KlW" secondAttribute="centerX" id="uue-b0-274"/>
+                            <constraint firstItem="vvS-OU-DuO" firstAttribute="leading" secondItem="HFC-If-KlW" secondAttribute="leadingMargin" constant="42" id="wbO-g6-8Ef"/>
+                        </constraints>
+                    </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="animationType" value="Linear"/>
+                        <userDefinedRuntimeAttribute type="point" keyPath="speed">
+                            <point key="value" x="-1" y="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="point" keyPath="speedVariance">
+                            <point key="value" x="0.25" y="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8xs-P4-pmy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-623.20000000000005" y="87.706146926536732"/>
+        </scene>
+        <!--Walkthrough View Controller-->
+        <scene sceneID="IEZ-t6-jMJ">
+            <objects>
+                <viewController storyboardIdentifier="Master" modalTransitionStyle="crossDissolve" useStoryboardIdentifierAsRestorationIdentifier="YES" id="yWk-bw-LBN" customClass="BWWalkthroughViewController" customModule="BWWalkthrough" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lRI-Yd-9JR"/>
+                        <viewControllerLayoutGuide type="bottom" id="pA8-9f-MZG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lPa-U2-gef">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wIA-vX-OU8">
+                                <rect key="frame" x="320" y="8" width="36" height="29"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <state key="normal" title="Done">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="close:" destination="yWk-bw-LBN" eventType="touchUpInside" id="Fhq-e3-g2j"/>
+                                </connections>
+                            </button>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="2WK-Xf-9RN">
+                                <rect key="frame" x="168" y="606" width="39" height="37"/>
+                            </pageControl>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1215686275" green="0.1450980392" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="2WK-Xf-9RN" firstAttribute="centerY" secondItem="lPa-U2-gef" secondAttribute="centerY" constant="291" id="H3J-F5-Pe3"/>
+                            <constraint firstItem="2WK-Xf-9RN" firstAttribute="centerX" secondItem="lPa-U2-gef" secondAttribute="centerX" id="OLT-DJ-T56"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="wIA-vX-OU8" secondAttribute="trailing" constant="3" id="ayy-cz-WeD"/>
+                            <constraint firstItem="wIA-vX-OU8" firstAttribute="top" secondItem="lRI-Yd-9JR" secondAttribute="bottom" constant="8" symbolic="YES" id="gJx-V3-oU5"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="closeButton" destination="wIA-vX-OU8" id="0WV-wE-JNn"/>
+                        <outlet property="pageControl" destination="2WK-Xf-9RN" id="eUM-3O-ETO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d5A-WC-FWY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1340" y="88"/>
+        </scene>
+        <!--Walkthrough Page View Controller-->
+        <scene sceneID="egS-oI-Bf2">
+            <objects>
+                <viewController storyboardIdentifier="walkthrough2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="GbY-9M-ykm" customClass="BWWalkthroughPageViewController" customModule="BWWalkthrough" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XeW-wS-egK"/>
+                        <viewControllerLayoutGuide type="bottom" id="RTp-Qs-dg8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8Bc-4T-GzC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboardingPhone2" translatesAutoresizingMaskIntoConstraints="NO" id="UaV-mx-omD">
+                                <rect key="frame" x="89" y="56" width="197" height="338"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboardingText2" translatesAutoresizingMaskIntoConstraints="NO" id="3mr-Ed-5oE">
+                                <rect key="frame" x="58" y="435" width="258" height="109"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="109" id="Ec8-wv-e83"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1215686275" green="0.1450980392" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="UaV-mx-omD" firstAttribute="leading" secondItem="8Bc-4T-GzC" secondAttribute="leadingMargin" constant="73" id="I21-b4-WlF"/>
+                            <constraint firstItem="3mr-Ed-5oE" firstAttribute="centerX" secondItem="8Bc-4T-GzC" secondAttribute="centerX" id="KEN-rk-dTA"/>
+                            <constraint firstItem="UaV-mx-omD" firstAttribute="centerX" secondItem="3mr-Ed-5oE" secondAttribute="centerX" id="Mtr-5Z-eK2"/>
+                            <constraint firstItem="RTp-Qs-dg8" firstAttribute="top" secondItem="3mr-Ed-5oE" secondAttribute="bottom" constant="123" id="ZYW-EK-A7n"/>
+                            <constraint firstItem="3mr-Ed-5oE" firstAttribute="top" secondItem="UaV-mx-omD" secondAttribute="bottom" constant="41" id="d8K-aN-fwa"/>
+                            <constraint firstItem="3mr-Ed-5oE" firstAttribute="leading" secondItem="8Bc-4T-GzC" secondAttribute="leadingMargin" constant="42" id="rCW-G0-oi9"/>
+                            <constraint firstItem="UaV-mx-omD" firstAttribute="top" secondItem="XeW-wS-egK" secondAttribute="bottom" constant="36" id="wMa-r5-CMb"/>
+                        </constraints>
+                    </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="animationType" value="Linear"/>
+                        <userDefinedRuntimeAttribute type="point" keyPath="speed">
+                            <point key="value" x="1" y="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="point" keyPath="speedVariance">
+                            <point key="value" x="1.2" y="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NZJ-1z-6CW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="86" y="88"/>
+        </scene>
+        <!--Walkthrough Page View Controller-->
+        <scene sceneID="LA8-6c-3ZQ">
+            <objects>
+                <viewController storyboardIdentifier="walkthrough3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="7M0-65-jdb" customClass="BWWalkthroughPageViewController" customModule="BWWalkthrough" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SaV-AI-bRu"/>
+                        <viewControllerLayoutGuide type="bottom" id="V9c-TE-wUi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EXn-4e-ilV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboardingPhone3" translatesAutoresizingMaskIntoConstraints="NO" id="T1Y-Rd-oQj">
+                                <rect key="frame" x="89" y="56" width="197" height="338"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboardingText3" translatesAutoresizingMaskIntoConstraints="NO" id="PNO-QF-QZT">
+                                <rect key="frame" x="58" y="435" width="258" height="109"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="109" id="vJE-nw-WGR"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1215686275" green="0.1450980392" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="T1Y-Rd-oQj" firstAttribute="centerX" secondItem="PNO-QF-QZT" secondAttribute="centerX" id="25t-7q-Il8"/>
+                            <constraint firstItem="V9c-TE-wUi" firstAttribute="top" secondItem="PNO-QF-QZT" secondAttribute="bottom" constant="123" id="6fh-By-LkH"/>
+                            <constraint firstItem="PNO-QF-QZT" firstAttribute="leading" secondItem="EXn-4e-ilV" secondAttribute="leadingMargin" constant="42" id="A4v-0R-0HX"/>
+                            <constraint firstItem="PNO-QF-QZT" firstAttribute="centerX" secondItem="EXn-4e-ilV" secondAttribute="centerX" id="EnF-AX-RHM"/>
+                            <constraint firstItem="T1Y-Rd-oQj" firstAttribute="leading" secondItem="EXn-4e-ilV" secondAttribute="leadingMargin" constant="73" id="P1C-vb-TGE"/>
+                            <constraint firstItem="PNO-QF-QZT" firstAttribute="top" secondItem="T1Y-Rd-oQj" secondAttribute="bottom" constant="41" id="X4c-bn-ivO"/>
+                            <constraint firstItem="T1Y-Rd-oQj" firstAttribute="top" secondItem="SaV-AI-bRu" secondAttribute="bottom" constant="36" id="Zt3-bB-Duy"/>
+                        </constraints>
+                    </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="animationType" value="Linear"/>
+                        <userDefinedRuntimeAttribute type="point" keyPath="speed">
+                            <point key="value" x="1" y="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="point" keyPath="speedVariance">
+                            <point key="value" x="1.2" y="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mp7-63-hBJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="770" y="88"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="onboardingPhone1" width="214" height="404"/>
+        <image name="onboardingPhone2" width="214" height="404"/>
+        <image name="onboardingPhone3" width="214" height="404"/>
+        <image name="onboardingText1" width="300" height="83"/>
+        <image name="onboardingText2" width="303" height="83"/>
+        <image name="onboardingText3" width="297" height="83"/>
+    </resources>
+</document>

@@ -1,0 +1,22 @@
+{
+  "name": "accountBalance",
+  "version": "1.0.0",
+  "description": "Get a Stripe connected account balance",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "stripe": "^4.4.0",
+    "body-parser": "~1.13.3",
+    "async": "^2.0.1",
+    "promise": "^7.1.1"
+  },
+  "engines": {
+    "node": "4.1.1"
+  }
+}

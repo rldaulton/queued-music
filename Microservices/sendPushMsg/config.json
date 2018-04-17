@@ -1,0 +1,4 @@
+{
+  "GCLOUD_PROJECT": "my-cloud-project-id",
+  "DATA_BACKEND": "datastore"
+}

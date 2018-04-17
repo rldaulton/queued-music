@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "VenueDataSource.tableView(UITableView, numberOfRowsInSection : Int) -&gt; Int:ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "venuesShowing">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "HomeViewController.dataSourceDidCompleteLoad(TrackDataSource, tracks : [Track]?) -&gt; ():HomeViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "track.trackId">
+            </PersistentString>
+            <PersistentString
+               value = "self.currentPlayingTrack?.trackId">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "QueueDataModel.(addTrackToQueue(queueId : String!, track : SPTPartialTrack!, completion : (Error?, String?) -&gt; ()) -&gt; ()).(closure #1).(closure #2):QueueDataModel.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ArtistTopSongTableViewController.tableView(UITableView, numberOfRowsInSection : Int) -&gt; Int:ArtistTopSongTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(tracks?.count)!">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SearchResultsTableViewController.tableView(UITableView, viewForHeaderInSection : Int) -&gt; UIView?:SearchResultsTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "section">
+            </PersistentString>
+            <PersistentString
+               value = "dataSource.sections">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PaymentsDataModel.(applyCreditCard(number : String, expMonth : UInt, expYear : UInt, cvc : String, completion : (Error?) -&gt; ()) -&gt; ()).(closure #1):PaymentsDataModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "token.tokenId">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SpotifyManager.(trackUserActions(userID : String!, venueID : String!, eventCode : String!, eventDesc : String!, completion : (Error?) -&gt; ()) -&gt; ()).(closure #1):SpotifyManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "response.error">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "WelcomeViewController.(enterAsGuest(Any) -&gt; ()).(closure #1):WelcomeViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "user.username">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SpotifyManager.refreshSession(completion : () -&gt; ()) -&gt; ():SpotifyManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "auth.session.accessToken">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "UserDataModel.getFirstVoteDone() -&gt; Bool!:UserDataModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "data as! Bool">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "VenueDataSource.(load() -&gt; ()).(closure #1):ViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "LoginViewController.(loginWithSpotify(Any) -&gt; ()).(closure #1).(closure #1):LoginViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "QueueDataModel.(upVote(track : Track, completion : (Bool) -&gt; ()) -&gt; ()).(closure #1):QueueDataModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "response.result.value">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "VenueDataSource.filter() -&gt; ():CheckInViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Float(currentLocation.distance(from: CLLocation(latitude: CLLocationDegrees(latitude), longitude: CLLocationDegrees(longitude))) /&#10;                        1609)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "QueueDataModel.upVote(track : Track, completion : (Bool) -&gt; ()) -&gt; ():QueueDataModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "&quot;https://queued-5bb33.firebaseio.com/tracks/\(trackId).json&quot;">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

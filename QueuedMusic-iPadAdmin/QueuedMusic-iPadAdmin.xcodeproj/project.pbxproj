@@ -1,0 +1,1314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		740BCD3E1EC151E300F33980 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740BCD3C1EC151E300F33980 /* NotificationView.swift */; };
+		740BCD3F1EC151E300F33980 /* NotificationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 740BCD3D1EC151E300F33980 /* NotificationView.xib */; };
+		7418D5941EA844AB00E0D2E1 /* AZTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7418D5921EA844AB00E0D2E1 /* AZTabBarController.swift */; };
+		7418D5951EA844AB00E0D2E1 /* AZTabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7418D5931EA844AB00E0D2E1 /* AZTabBarController.xib */; };
+		7418D5991EA8496500E0D2E1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7418D5981EA8496500E0D2E1 /* MainViewController.swift */; };
+		7418D59B1EA8498D00E0D2E1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7418D59A1EA8498D00E0D2E1 /* MainView.swift */; };
+		7418D59D1EA85B4600E0D2E1 /* Queue.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7418D59C1EA85B4600E0D2E1 /* Queue.storyboard */; };
+		7418D5A11EA85B8700E0D2E1 /* QueueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7418D5A01EA85B8700E0D2E1 /* QueueViewController.swift */; };
+		7418D5A51EA85C1F00E0D2E1 /* Analytics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7418D5A41EA85C1F00E0D2E1 /* Analytics.storyboard */; };
+		7418D5AD1EA85C8E00E0D2E1 /* AnalyticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7418D5AC1EA85C8E00E0D2E1 /* AnalyticsViewController.swift */; };
+		7418D5AF1EA85C9800E0D2E1 /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7418D5AE1EA85C9800E0D2E1 /* AnalyticsView.swift */; };
+		7418D5B11EA85D0E00E0D2E1 /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7418D5B01EA85D0E00E0D2E1 /* User.storyboard */; };
+		7418D5B31EA85D2B00E0D2E1 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7418D5B21EA85D2B00E0D2E1 /* UserViewController.swift */; };
+		7418D5B51EA85D4800E0D2E1 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7418D5B41EA85D4800E0D2E1 /* UserView.swift */; };
+		7418D5B71EA85D6600E0D2E1 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7418D5B61EA85D6600E0D2E1 /* SettingViewController.swift */; };
+		7418D5B91EA85D8400E0D2E1 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7418D5B81EA85D8400E0D2E1 /* SettingView.swift */; };
+		7418D5BF1EA8915F00E0D2E1 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7418D5BD1EA8915F00E0D2E1 /* AlertView.swift */; };
+		7418D5C01EA8915F00E0D2E1 /* AlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7418D5BE1EA8915F00E0D2E1 /* AlertView.xib */; };
+		7418D5C21EA8946200E0D2E1 /* ModalAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7418D5C11EA8946200E0D2E1 /* ModalAlertViewController.swift */; };
+		7418D5C41EA8971F00E0D2E1 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7418D5C31EA8971F00E0D2E1 /* BaseViewController.swift */; };
+		7418D5C61EA8B23200E0D2E1 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7418D5C51EA8B23200E0D2E1 /* Extension.swift */; };
+		742596A51EC959E7000CD243 /* AddressCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742596A41EC959E7000CD243 /* AddressCell.swift */; };
+		742596A71EC95A5B000CD243 /* AddressDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742596A61EC95A5B000CD243 /* AddressDataModel.swift */; };
+		7425FBC31EA6F40A001188CC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7425FBC21EA6F40A001188CC /* LoginViewController.swift */; };
+		7425FBC61EA6F57C001188CC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7425FBC51EA6F57C001188CC /* LoginView.swift */; };
+		7425FBC81EA70CED001188CC /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7425FBC71EA70CED001188CC /* Home.storyboard */; };
+		7425FBCC1EA70D6E001188CC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7425FBCB1EA70D6E001188CC /* HomeViewController.swift */; };
+		7425FBCE1EA70D9E001188CC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7425FBCD1EA70D9E001188CC /* HomeView.swift */; };
+		742AA62F1EA5BD5300AC3685 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742AA62E1EA5BD5300AC3685 /* AppDelegate.swift */; };
+		742AA6341EA5BD5300AC3685 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 742AA6321EA5BD5300AC3685 /* Main.storyboard */; };
+		742AA6371EA5BD5300AC3685 /* QueuedMusic_iPadAdmin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 742AA6351EA5BD5300AC3685 /* QueuedMusic_iPadAdmin.xcdatamodeld */; };
+		742AA63C1EA5BD5300AC3685 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 742AA63A1EA5BD5300AC3685 /* LaunchScreen.storyboard */; };
+		742AA6471EA5BD5300AC3685 /* QueuedMusic_iPadAdminTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742AA6461EA5BD5300AC3685 /* QueuedMusic_iPadAdminTests.swift */; };
+		742AA6521EA5BD5300AC3685 /* QueuedMusic_iPadAdminUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742AA6511EA5BD5300AC3685 /* QueuedMusic_iPadAdminUITests.swift */; };
+		742AA6631EA5BFC300AC3685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 742AA6601EA5BFC300AC3685 /* Assets.xcassets */; };
+		742AA66B1EA60EC700AC3685 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742AA66A1EA60EC700AC3685 /* WelcomeView.swift */; };
+		742AA66E1EA60F0A00AC3685 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742AA66D1EA60F0A00AC3685 /* WelcomeViewController.swift */; };
+		742B0EBC1EC600CE003AD060 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 742B0EBB1EC600CD003AD060 /* CoreLocation.framework */; };
+		74326EDD1EBFFE9200642D3F /* CheckInDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74326EDC1EBFFE9200642D3F /* CheckInDataModel.swift */; };
+		74326EE01EC0028600642D3F /* CheckInCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74326EDF1EC0028600642D3F /* CheckInCell.swift */; };
+		743F851B1EC559B2000CBFD9 /* OnboardingVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743F851A1EC559B2000CBFD9 /* OnboardingVideoViewController.swift */; };
+		743F851F1EC56342000CBFD9 /* BackgroundVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743F851E1EC56342000CBFD9 /* BackgroundVideo.swift */; };
+		744004D11EDD565D006B0C89 /* EscrowAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744004D01EDD565D006B0C89 /* EscrowAccountViewController.swift */; };
+		744004D31EDD58BC006B0C89 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744004D21EDD58BC006B0C89 /* Setting.storyboard */; };
+		744004D51EDD6B31006B0C89 /* EscrowTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744004D41EDD6B31006B0C89 /* EscrowTableCell.swift */; };
+		744185A91EE2538B0060FB3F /* CustomerDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744185A81EE2538B0060FB3F /* CustomerDataModel.swift */; };
+		7441CC571EAD9A7300F253B4 /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7441CC561EAD9A7300F253B4 /* TrackCell.swift */; };
+		7444A3EC1EC46BAB00CDF07C /* NewVenueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7444A3EB1EC46BAB00CDF07C /* NewVenueViewController.swift */; };
+		7444A3EE1EC46F0400CDF07C /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7444A3ED1EC46F0400CDF07C /* Onboarding.storyboard */; };
+		7444A3F01EC4976400CDF07C /* OnboardingStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7444A3EF1EC4976400CDF07C /* OnboardingStartViewController.swift */; };
+		744588B81EC062E300AA792B /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744588B71EC062E300AA792B /* ActivityView.swift */; };
+		744C73021EA99C0000BC9DC2 /* AppSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744C72ED1EA99C0000BC9DC2 /* AppSetting.swift */; };
+		744C73031EA99C0000BC9DC2 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744C72EE1EA99C0000BC9DC2 /* FirebaseManager.swift */; };
+		744C73041EA99C0000BC9DC2 /* GoogleAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744C72EF1EA99C0000BC9DC2 /* GoogleAuth.swift */; };
+		744C73051EA99C0000BC9DC2 /* SpotifyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744C72F01EA99C0000BC9DC2 /* SpotifyManager.swift */; };
+		744C73061EA99C0000BC9DC2 /* VenueDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744C72F31EA99C0000BC9DC2 /* VenueDataModel.swift */; };
+		744C73071EA99C0000BC9DC2 /* Vote+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744C72F51EA99C0000BC9DC2 /* Vote+CoreDataClass.swift */; };
+		744C73081EA99C0000BC9DC2 /* Vote+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744C72F61EA99C0000BC9DC2 /* Vote+CoreDataProperties.swift */; };
+		744C73091EA99C0000BC9DC2 /* QueueDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744C72F81EA99C0000BC9DC2 /* QueueDataModel.swift */; };
+		744C730E1EA99C0000BC9DC2 /* UserDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744C73011EA99C0000BC9DC2 /* UserDataModel.swift */; };
+		744C731E1EA9A48D00BC9DC2 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744C731D1EA9A48D00BC9DC2 /* Style.swift */; };
+		745DB7F51ED2946F00B2842B /* HomeTrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745DB7F41ED2946F00B2842B /* HomeTrackCell.swift */; };
+		7464E7121EE155DE00C2314C /* VenueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464E7101EE155DE00C2314C /* VenueView.swift */; };
+		7464E7131EE155DE00C2314C /* VenueView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7464E7111EE155DE00C2314C /* VenueView.xib */; };
+		749F9C771EE65F7F00654074 /* TakeoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749F9C751EE65F7F00654074 /* TakeoverView.swift */; };
+		749F9C781EE65F7F00654074 /* TakeoverView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 749F9C761EE65F7F00654074 /* TakeoverView.xib */; };
+		749F9C7A1EE6A32F00654074 /* TakeoverTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 749F9C791EE6A32F00654074 /* TakeoverTableCell.xib */; };
+		749F9C7C1EE6A35B00654074 /* TakeoverTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749F9C7B1EE6A35B00654074 /* TakeoverTableCell.swift */; };
+		74ADB2851ECE804F0032EA11 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74ADB2831ECE804F0032EA11 /* PickerView.swift */; };
+		74ADB2861ECE804F0032EA11 /* PickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74ADB2841ECE804F0032EA11 /* PickerView.xib */; };
+		74D7A2CA1EFA72D5002CC3C2 /* LGAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D7A2C91EFA72D5002CC3C2 /* LGAudioPlayer.swift */; };
+		74DC1C541EDBD16500E58D66 /* Account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74DC1C531EDBD16500E58D66 /* Account.storyboard */; };
+		74DC1C571EDBDDD600E58D66 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DC1C561EDBDDD600E58D66 /* AccountViewController.swift */; };
+		74EF6C761EEAA4F300B678BB /* CustomXAxisRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EF6C751EEAA4F300B678BB /* CustomXAxisRenderer.swift */; };
+		74F0AABD1ECC7A54002BDEF3 /* EscrowDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F0AABC1ECC7A54002BDEF3 /* EscrowDataModel.swift */; };
+		74F3BB161ECBF9030033F584 /* EscrowSetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F3BB151ECBF9030033F584 /* EscrowSetupViewController.swift */; };
+		74F3BB191ECC3FCD0033F584 /* EscrowTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F3BB181ECC3FCD0033F584 /* EscrowTextView.swift */; };
+		910E09AC2A9979184F23F8CB /* Pods_QueuedMusic_iPadAdmin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED416BF669DD2D1B69C1F745 /* Pods_QueuedMusic_iPadAdmin.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		742AA6431EA5BD5300AC3685 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 742AA6231EA5BD5300AC3685 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 742AA62A1EA5BD5300AC3685;
+			remoteInfo = "QueuedMusic-iPadAdmin";
+		};
+		742AA64E1EA5BD5300AC3685 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 742AA6231EA5BD5300AC3685 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 742AA62A1EA5BD5300AC3685;
+			remoteInfo = "QueuedMusic-iPadAdmin";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		740BCD3C1EC151E300F33980 /* NotificationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		740BCD3D1EC151E300F33980 /* NotificationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotificationView.xib; sourceTree = "<group>"; };
+		7418D5921EA844AB00E0D2E1 /* AZTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZTabBarController.swift; sourceTree = "<group>"; };
+		7418D5931EA844AB00E0D2E1 /* AZTabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AZTabBarController.xib; sourceTree = "<group>"; };
+		7418D5981EA8496500E0D2E1 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7418D59A1EA8498D00E0D2E1 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		7418D59C1EA85B4600E0D2E1 /* Queue.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Queue.storyboard; sourceTree = "<group>"; };
+		7418D5A01EA85B8700E0D2E1 /* QueueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueueViewController.swift; sourceTree = "<group>"; };
+		7418D5A41EA85C1F00E0D2E1 /* Analytics.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Analytics.storyboard; sourceTree = "<group>"; };
+		7418D5AC1EA85C8E00E0D2E1 /* AnalyticsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsViewController.swift; sourceTree = "<group>"; };
+		7418D5AE1EA85C9800E0D2E1 /* AnalyticsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
+		7418D5B01EA85D0E00E0D2E1 /* User.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = User.storyboard; sourceTree = "<group>"; };
+		7418D5B21EA85D2B00E0D2E1 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		7418D5B41EA85D4800E0D2E1 /* UserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		7418D5B61EA85D6600E0D2E1 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		7418D5B81EA85D8400E0D2E1 /* SettingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		7418D5BD1EA8915F00E0D2E1 /* AlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		7418D5BE1EA8915F00E0D2E1 /* AlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertView.xib; sourceTree = "<group>"; };
+		7418D5C11EA8946200E0D2E1 /* ModalAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModalAlertViewController.swift; path = Controller/ModalAlertViewController.swift; sourceTree = "<group>"; };
+		7418D5C31EA8971F00E0D2E1 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = Controller/BaseViewController.swift; sourceTree = "<group>"; };
+		7418D5C51EA8B23200E0D2E1 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		742596A41EC959E7000CD243 /* AddressCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressCell.swift; sourceTree = "<group>"; };
+		742596A61EC95A5B000CD243 /* AddressDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressDataModel.swift; sourceTree = "<group>"; };
+		7425FBC21EA6F40A001188CC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7425FBC51EA6F57C001188CC /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		7425FBC71EA70CED001188CC /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		7425FBCB1EA70D6E001188CC /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7425FBCD1EA70D9E001188CC /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		742AA62B1EA5BD5300AC3685 /* QueuedMusic-iPadAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QueuedMusic-iPadAdmin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		742AA62E1EA5BD5300AC3685 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		742AA6331EA5BD5300AC3685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		742AA6361EA5BD5300AC3685 /* QueuedMusic_iPadAdmin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QueuedMusic_iPadAdmin.xcdatamodel; sourceTree = "<group>"; };
+		742AA63B1EA5BD5300AC3685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		742AA63D1EA5BD5300AC3685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		742AA6421EA5BD5300AC3685 /* QueuedMusic-iPadAdminTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QueuedMusic-iPadAdminTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		742AA6461EA5BD5300AC3685 /* QueuedMusic_iPadAdminTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueuedMusic_iPadAdminTests.swift; sourceTree = "<group>"; };
+		742AA6481EA5BD5300AC3685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		742AA64D1EA5BD5300AC3685 /* QueuedMusic-iPadAdminUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QueuedMusic-iPadAdminUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		742AA6511EA5BD5300AC3685 /* QueuedMusic_iPadAdminUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueuedMusic_iPadAdminUITests.swift; sourceTree = "<group>"; };
+		742AA6531EA5BD5300AC3685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		742AA6601EA5BFC300AC3685 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		742AA66A1EA60EC700AC3685 /* WelcomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WelcomeView.swift; path = View/Welcome/WelcomeView.swift; sourceTree = "<group>"; };
+		742AA66D1EA60F0A00AC3685 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		742B0EBB1EC600CD003AD060 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		74326EDC1EBFFE9200642D3F /* CheckInDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckInDataModel.swift; sourceTree = "<group>"; };
+		74326EDF1EC0028600642D3F /* CheckInCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckInCell.swift; sourceTree = "<group>"; };
+		743F851A1EC559B2000CBFD9 /* OnboardingVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingVideoViewController.swift; sourceTree = "<group>"; };
+		743F851E1EC56342000CBFD9 /* BackgroundVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BackgroundVideo.swift; path = "QueuedMusic-iPadAdmin/View/Home/BackgroundVideo.swift"; sourceTree = SOURCE_ROOT; };
+		744004D01EDD565D006B0C89 /* EscrowAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EscrowAccountViewController.swift; sourceTree = "<group>"; };
+		744004D21EDD58BC006B0C89 /* Setting.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		744004D41EDD6B31006B0C89 /* EscrowTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EscrowTableCell.swift; sourceTree = "<group>"; };
+		744185A81EE2538B0060FB3F /* CustomerDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerDataModel.swift; sourceTree = "<group>"; };
+		7441CC561EAD9A7300F253B4 /* TrackCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
+		7444A3EB1EC46BAB00CDF07C /* NewVenueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewVenueViewController.swift; sourceTree = "<group>"; };
+		7444A3ED1EC46F0400CDF07C /* Onboarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		7444A3EF1EC4976400CDF07C /* OnboardingStartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingStartViewController.swift; sourceTree = "<group>"; };
+		744588B71EC062E300AA792B /* ActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		744C72ED1EA99C0000BC9DC2 /* AppSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSetting.swift; sourceTree = "<group>"; };
+		744C72EE1EA99C0000BC9DC2 /* FirebaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		744C72EF1EA99C0000BC9DC2 /* GoogleAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleAuth.swift; sourceTree = "<group>"; };
+		744C72F01EA99C0000BC9DC2 /* SpotifyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotifyManager.swift; sourceTree = "<group>"; };
+		744C72F31EA99C0000BC9DC2 /* VenueDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueDataModel.swift; sourceTree = "<group>"; };
+		744C72F51EA99C0000BC9DC2 /* Vote+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Vote+CoreDataClass.swift"; sourceTree = "<group>"; };
+		744C72F61EA99C0000BC9DC2 /* Vote+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Vote+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		744C72F81EA99C0000BC9DC2 /* QueueDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueueDataModel.swift; sourceTree = "<group>"; };
+		744C73011EA99C0000BC9DC2 /* UserDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataModel.swift; sourceTree = "<group>"; };
+		744C731D1EA9A48D00BC9DC2 /* Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		745DB7F41ED2946F00B2842B /* HomeTrackCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTrackCell.swift; sourceTree = "<group>"; };
+		7464E7101EE155DE00C2314C /* VenueView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueView.swift; sourceTree = "<group>"; };
+		7464E7111EE155DE00C2314C /* VenueView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VenueView.xib; sourceTree = "<group>"; };
+		7464E7141EE1664800C2314C /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		749F9C751EE65F7F00654074 /* TakeoverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakeoverView.swift; sourceTree = "<group>"; };
+		749F9C761EE65F7F00654074 /* TakeoverView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TakeoverView.xib; sourceTree = "<group>"; };
+		749F9C791EE6A32F00654074 /* TakeoverTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TakeoverTableCell.xib; sourceTree = "<group>"; };
+		749F9C7B1EE6A35B00654074 /* TakeoverTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakeoverTableCell.swift; sourceTree = "<group>"; };
+		74ADB2831ECE804F0032EA11 /* PickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		74ADB2841ECE804F0032EA11 /* PickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickerView.xib; sourceTree = "<group>"; };
+		74ADB2871ECEF9E10032EA11 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		74D7A2C91EFA72D5002CC3C2 /* LGAudioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LGAudioPlayer.swift; sourceTree = "<group>"; };
+		74DC1C531EDBD16500E58D66 /* Account.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Account.storyboard; sourceTree = "<group>"; };
+		74DC1C561EDBDDD600E58D66 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		74EF6C751EEAA4F300B678BB /* CustomXAxisRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomXAxisRenderer.swift; sourceTree = "<group>"; };
+		74F0AABC1ECC7A54002BDEF3 /* EscrowDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EscrowDataModel.swift; sourceTree = "<group>"; };
+		74F3BB151ECBF9030033F584 /* EscrowSetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EscrowSetupViewController.swift; sourceTree = "<group>"; };
+		74F3BB181ECC3FCD0033F584 /* EscrowTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EscrowTextView.swift; sourceTree = "<group>"; };
+		A7FCF6ADC6870E8DB5D5F58A /* Pods-QueuedMusic-iPadAdmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QueuedMusic-iPadAdmin.release.xcconfig"; path = "Pods/Target Support Files/Pods-QueuedMusic-iPadAdmin/Pods-QueuedMusic-iPadAdmin.release.xcconfig"; sourceTree = "<group>"; };
+		B8F454F0104204CB02B8D818 /* Pods-QueuedMusic-iPadAdmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QueuedMusic-iPadAdmin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QueuedMusic-iPadAdmin/Pods-QueuedMusic-iPadAdmin.debug.xcconfig"; sourceTree = "<group>"; };
+		ED416BF669DD2D1B69C1F745 /* Pods_QueuedMusic_iPadAdmin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QueuedMusic_iPadAdmin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		742AA6281EA5BD5300AC3685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				742B0EBC1EC600CE003AD060 /* CoreLocation.framework in Frameworks */,
+				910E09AC2A9979184F23F8CB /* Pods_QueuedMusic_iPadAdmin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		742AA63F1EA5BD5300AC3685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		742AA64A1EA5BD5300AC3685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38F80B69C07C2FD1F7A10A16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7464E7141EE1664800C2314C /* AddressBookUI.framework */,
+				742B0EBB1EC600CD003AD060 /* CoreLocation.framework */,
+				ED416BF669DD2D1B69C1F745 /* Pods_QueuedMusic_iPadAdmin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		740BCD3B1EC151E300F33980 /* NotificationView */ = {
+			isa = PBXGroup;
+			children = (
+				740BCD3C1EC151E300F33980 /* NotificationView.swift */,
+				740BCD3D1EC151E300F33980 /* NotificationView.xib */,
+			);
+			name = NotificationView;
+			path = View/NotificationView;
+			sourceTree = "<group>";
+		};
+		7418D5911EA844AB00E0D2E1 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				7418D5921EA844AB00E0D2E1 /* AZTabBarController.swift */,
+				7418D5931EA844AB00E0D2E1 /* AZTabBarController.xib */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		7418D5961EA8494B00E0D2E1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7418D5981EA8496500E0D2E1 /* MainViewController.swift */,
+			);
+			name = Main;
+			path = Controller/Main;
+			sourceTree = "<group>";
+		};
+		7418D5971EA8495A00E0D2E1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				743F851E1EC56342000CBFD9 /* BackgroundVideo.swift */,
+				7418D59A1EA8498D00E0D2E1 /* MainView.swift */,
+				74D7A2C91EFA72D5002CC3C2 /* LGAudioPlayer.swift */,
+			);
+			name = Main;
+			path = View/Main;
+			sourceTree = "<group>";
+		};
+		7418D59E1EA85B6E00E0D2E1 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				7418D5A01EA85B8700E0D2E1 /* QueueViewController.swift */,
+			);
+			name = Queue;
+			path = Controller/Queue;
+			sourceTree = "<group>";
+		};
+		7418D59F1EA85B7600E0D2E1 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				7441CC561EAD9A7300F253B4 /* TrackCell.swift */,
+				745DB7F41ED2946F00B2842B /* HomeTrackCell.swift */,
+			);
+			name = Queue;
+			path = View/Queue;
+			sourceTree = "<group>";
+		};
+		7418D5A61EA85C4300E0D2E1 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				7418D5AE1EA85C9800E0D2E1 /* AnalyticsView.swift */,
+			);
+			name = Analytics;
+			path = View/Analytics;
+			sourceTree = "<group>";
+		};
+		7418D5A71EA85C5400E0D2E1 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				7418D5B41EA85D4800E0D2E1 /* UserView.swift */,
+			);
+			name = User;
+			path = View/User;
+			sourceTree = "<group>";
+		};
+		7418D5A81EA85C5E00E0D2E1 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				7418D5B81EA85D8400E0D2E1 /* SettingView.swift */,
+			);
+			name = Setting;
+			path = View/Setting;
+			sourceTree = "<group>";
+		};
+		7418D5A91EA85C6A00E0D2E1 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				7418D5AC1EA85C8E00E0D2E1 /* AnalyticsViewController.swift */,
+			);
+			name = Analytics;
+			path = Controller/Analytics;
+			sourceTree = "<group>";
+		};
+		7418D5AA1EA85C7700E0D2E1 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				7418D5B21EA85D2B00E0D2E1 /* UserViewController.swift */,
+			);
+			name = User;
+			path = Controller/User;
+			sourceTree = "<group>";
+		};
+		7418D5AB1EA85C8300E0D2E1 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				7418D5B61EA85D6600E0D2E1 /* SettingViewController.swift */,
+			);
+			name = Setting;
+			path = Controller/Setting;
+			sourceTree = "<group>";
+		};
+		7418D5BC1EA8915F00E0D2E1 /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				7418D5BD1EA8915F00E0D2E1 /* AlertView.swift */,
+				7418D5BE1EA8915F00E0D2E1 /* AlertView.xib */,
+			);
+			name = AlertView;
+			path = View/AlertView;
+			sourceTree = "<group>";
+		};
+		742596A31EC959E7000CD243 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				742596A41EC959E7000CD243 /* AddressCell.swift */,
+			);
+			name = Onboarding;
+			path = View/Onboarding;
+			sourceTree = "<group>";
+		};
+		7425FBC11EA6F3ED001188CC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7425FBC21EA6F40A001188CC /* LoginViewController.swift */,
+			);
+			name = Login;
+			path = Controller/Login;
+			sourceTree = "<group>";
+		};
+		7425FBC41EA6F573001188CC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7425FBC51EA6F57C001188CC /* LoginView.swift */,
+			);
+			name = Login;
+			path = View/Login;
+			sourceTree = "<group>";
+		};
+		7425FBC91EA70D52001188CC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7425FBCD1EA70D9E001188CC /* HomeView.swift */,
+				74EF6C751EEAA4F300B678BB /* CustomXAxisRenderer.swift */,
+			);
+			name = Home;
+			path = View/Home;
+			sourceTree = "<group>";
+		};
+		7425FBCA1EA70D5B001188CC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7425FBCB1EA70D6E001188CC /* HomeViewController.swift */,
+			);
+			name = Home;
+			path = Controller/Home;
+			sourceTree = "<group>";
+		};
+		742AA6221EA5BD5300AC3685 = {
+			isa = PBXGroup;
+			children = (
+				742AA62D1EA5BD5300AC3685 /* QueuedMusic-iPadAdmin */,
+				742AA65F1EA5BFC300AC3685 /* Resource */,
+				742AA6451EA5BD5300AC3685 /* QueuedMusic-iPadAdminTests */,
+				742AA6501EA5BD5300AC3685 /* QueuedMusic-iPadAdminUITests */,
+				742AA62C1EA5BD5300AC3685 /* Products */,
+				8C7D499E8193E46C8F5C5D33 /* Pods */,
+				38F80B69C07C2FD1F7A10A16 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		742AA62C1EA5BD5300AC3685 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				742AA62B1EA5BD5300AC3685 /* QueuedMusic-iPadAdmin.app */,
+				742AA6421EA5BD5300AC3685 /* QueuedMusic-iPadAdminTests.xctest */,
+				742AA64D1EA5BD5300AC3685 /* QueuedMusic-iPadAdminUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		742AA62D1EA5BD5300AC3685 /* QueuedMusic-iPadAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				744C72EC1EA99C0000BC9DC2 /* Manager */,
+				744C72F11EA99C0000BC9DC2 /* Model */,
+				7418D5C51EA8B23200E0D2E1 /* Extension.swift */,
+				744C731D1EA9A48D00BC9DC2 /* Style.swift */,
+				7418D5911EA844AB00E0D2E1 /* Sources */,
+				742AA6681EA60E4600AC3685 /* View */,
+				742AA6651EA60CD700AC3685 /* Controller */,
+				742AA62E1EA5BD5300AC3685 /* AppDelegate.swift */,
+				742AA6321EA5BD5300AC3685 /* Main.storyboard */,
+				742AA63A1EA5BD5300AC3685 /* LaunchScreen.storyboard */,
+				7425FBC71EA70CED001188CC /* Home.storyboard */,
+				7418D59C1EA85B4600E0D2E1 /* Queue.storyboard */,
+				7418D5A41EA85C1F00E0D2E1 /* Analytics.storyboard */,
+				7418D5B01EA85D0E00E0D2E1 /* User.storyboard */,
+				7444A3ED1EC46F0400CDF07C /* Onboarding.storyboard */,
+				744004D21EDD58BC006B0C89 /* Setting.storyboard */,
+				74DC1C531EDBD16500E58D66 /* Account.storyboard */,
+				742AA63D1EA5BD5300AC3685 /* Info.plist */,
+				742AA6351EA5BD5300AC3685 /* QueuedMusic_iPadAdmin.xcdatamodeld */,
+				74ADB2871ECEF9E10032EA11 /* BridgingHeader.h */,
+			);
+			path = "QueuedMusic-iPadAdmin";
+			sourceTree = "<group>";
+		};
+		742AA6451EA5BD5300AC3685 /* QueuedMusic-iPadAdminTests */ = {
+			isa = PBXGroup;
+			children = (
+				742AA6461EA5BD5300AC3685 /* QueuedMusic_iPadAdminTests.swift */,
+				742AA6481EA5BD5300AC3685 /* Info.plist */,
+			);
+			path = "QueuedMusic-iPadAdminTests";
+			sourceTree = "<group>";
+		};
+		742AA6501EA5BD5300AC3685 /* QueuedMusic-iPadAdminUITests */ = {
+			isa = PBXGroup;
+			children = (
+				742AA6511EA5BD5300AC3685 /* QueuedMusic_iPadAdminUITests.swift */,
+				742AA6531EA5BD5300AC3685 /* Info.plist */,
+			);
+			path = "QueuedMusic-iPadAdminUITests";
+			sourceTree = "<group>";
+		};
+		742AA65F1EA5BFC300AC3685 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				742AA6601EA5BFC300AC3685 /* Assets.xcassets */,
+			);
+			name = Resource;
+			path = "QueuedMusic-iPadAdmin/Resource";
+			sourceTree = "<group>";
+		};
+		742AA6651EA60CD700AC3685 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				74DC1C551EDBDDD600E58D66 /* Account */,
+				74F3BB141ECBF9030033F584 /* Escrow */,
+				7444A3EA1EC46BAB00CDF07C /* Onboarding */,
+				7418D5C31EA8971F00E0D2E1 /* BaseViewController.swift */,
+				7418D5C11EA8946200E0D2E1 /* ModalAlertViewController.swift */,
+				7418D5AB1EA85C8300E0D2E1 /* Setting */,
+				7418D5AA1EA85C7700E0D2E1 /* User */,
+				7418D5A91EA85C6A00E0D2E1 /* Analytics */,
+				7418D59E1EA85B6E00E0D2E1 /* Queue */,
+				7418D5961EA8494B00E0D2E1 /* Main */,
+				7425FBCA1EA70D5B001188CC /* Home */,
+				7425FBC11EA6F3ED001188CC /* Login */,
+				742AA66C1EA60F0A00AC3685 /* Welcome */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		742AA6681EA60E4600AC3685 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				749F9C741EE65F7F00654074 /* TakeoverView */,
+				7464E70F1EE155DE00C2314C /* VenueView */,
+				74ADB2821ECE804F0032EA11 /* PickerView */,
+				74F3BB171ECC3FCD0033F584 /* Escrow */,
+				742596A31EC959E7000CD243 /* Onboarding */,
+				740BCD3B1EC151E300F33980 /* NotificationView */,
+				74326EDE1EC0028600642D3F /* CheckIn */,
+				7418D5BC1EA8915F00E0D2E1 /* AlertView */,
+				7418D5A81EA85C5E00E0D2E1 /* Setting */,
+				7418D5A71EA85C5400E0D2E1 /* User */,
+				7418D5A61EA85C4300E0D2E1 /* Analytics */,
+				7418D59F1EA85B7600E0D2E1 /* Queue */,
+				7418D5971EA8495A00E0D2E1 /* Main */,
+				7425FBC91EA70D52001188CC /* Home */,
+				7425FBC41EA6F573001188CC /* Login */,
+				742AA6691EA60E4D00AC3685 /* Welcome */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		742AA6691EA60E4D00AC3685 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				742AA66A1EA60EC700AC3685 /* WelcomeView.swift */,
+			);
+			name = Welcome;
+			sourceTree = "<group>";
+		};
+		742AA66C1EA60F0A00AC3685 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				742AA66D1EA60F0A00AC3685 /* WelcomeViewController.swift */,
+			);
+			name = Welcome;
+			path = Controller/Welcome;
+			sourceTree = "<group>";
+		};
+		74326EDE1EC0028600642D3F /* CheckIn */ = {
+			isa = PBXGroup;
+			children = (
+				744588B71EC062E300AA792B /* ActivityView.swift */,
+				74326EDF1EC0028600642D3F /* CheckInCell.swift */,
+			);
+			name = CheckIn;
+			path = View/CheckIn;
+			sourceTree = "<group>";
+		};
+		744185A71EE2538B0060FB3F /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				744185A81EE2538B0060FB3F /* CustomerDataModel.swift */,
+			);
+			path = Customer;
+			sourceTree = "<group>";
+		};
+		7444A3EA1EC46BAB00CDF07C /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				743F851A1EC559B2000CBFD9 /* OnboardingVideoViewController.swift */,
+				7444A3EF1EC4976400CDF07C /* OnboardingStartViewController.swift */,
+				7444A3EB1EC46BAB00CDF07C /* NewVenueViewController.swift */,
+			);
+			name = Onboarding;
+			path = Controller/Onboarding;
+			sourceTree = "<group>";
+		};
+		744C72EC1EA99C0000BC9DC2 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				744C72ED1EA99C0000BC9DC2 /* AppSetting.swift */,
+				744C72EE1EA99C0000BC9DC2 /* FirebaseManager.swift */,
+				744C72EF1EA99C0000BC9DC2 /* GoogleAuth.swift */,
+				744C72F01EA99C0000BC9DC2 /* SpotifyManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		744C72F11EA99C0000BC9DC2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				744185A71EE2538B0060FB3F /* Customer */,
+				74F0AABB1ECC7A54002BDEF3 /* Escrow */,
+				744C72F21EA99C0000BC9DC2 /* CheckIn */,
+				744C72F41EA99C0000BC9DC2 /* CoreData */,
+				744C72F71EA99C0000BC9DC2 /* Home */,
+				744C73001EA99C0000BC9DC2 /* Setting */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		744C72F21EA99C0000BC9DC2 /* CheckIn */ = {
+			isa = PBXGroup;
+			children = (
+				74326EDC1EBFFE9200642D3F /* CheckInDataModel.swift */,
+				744C72F31EA99C0000BC9DC2 /* VenueDataModel.swift */,
+			);
+			path = CheckIn;
+			sourceTree = "<group>";
+		};
+		744C72F41EA99C0000BC9DC2 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				742596A61EC95A5B000CD243 /* AddressDataModel.swift */,
+				744C72F51EA99C0000BC9DC2 /* Vote+CoreDataClass.swift */,
+				744C72F61EA99C0000BC9DC2 /* Vote+CoreDataProperties.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		744C72F71EA99C0000BC9DC2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				744C72F81EA99C0000BC9DC2 /* QueueDataModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		744C73001EA99C0000BC9DC2 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				744C73011EA99C0000BC9DC2 /* UserDataModel.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		7464E70F1EE155DE00C2314C /* VenueView */ = {
+			isa = PBXGroup;
+			children = (
+				7464E7101EE155DE00C2314C /* VenueView.swift */,
+				7464E7111EE155DE00C2314C /* VenueView.xib */,
+			);
+			name = VenueView;
+			path = View/VenueView;
+			sourceTree = "<group>";
+		};
+		749F9C741EE65F7F00654074 /* TakeoverView */ = {
+			isa = PBXGroup;
+			children = (
+				749F9C751EE65F7F00654074 /* TakeoverView.swift */,
+				749F9C761EE65F7F00654074 /* TakeoverView.xib */,
+				749F9C7B1EE6A35B00654074 /* TakeoverTableCell.swift */,
+				749F9C791EE6A32F00654074 /* TakeoverTableCell.xib */,
+			);
+			name = TakeoverView;
+			path = View/TakeoverView;
+			sourceTree = "<group>";
+		};
+		74ADB2821ECE804F0032EA11 /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				74ADB2831ECE804F0032EA11 /* PickerView.swift */,
+				74ADB2841ECE804F0032EA11 /* PickerView.xib */,
+			);
+			name = PickerView;
+			path = View/PickerView;
+			sourceTree = "<group>";
+		};
+		74DC1C551EDBDDD600E58D66 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				74DC1C561EDBDDD600E58D66 /* AccountViewController.swift */,
+			);
+			name = Account;
+			path = Controller/Account;
+			sourceTree = "<group>";
+		};
+		74F0AABB1ECC7A54002BDEF3 /* Escrow */ = {
+			isa = PBXGroup;
+			children = (
+				74F0AABC1ECC7A54002BDEF3 /* EscrowDataModel.swift */,
+			);
+			path = Escrow;
+			sourceTree = "<group>";
+		};
+		74F3BB141ECBF9030033F584 /* Escrow */ = {
+			isa = PBXGroup;
+			children = (
+				74F3BB151ECBF9030033F584 /* EscrowSetupViewController.swift */,
+				744004D01EDD565D006B0C89 /* EscrowAccountViewController.swift */,
+			);
+			name = Escrow;
+			path = Controller/Escrow;
+			sourceTree = "<group>";
+		};
+		74F3BB171ECC3FCD0033F584 /* Escrow */ = {
+			isa = PBXGroup;
+			children = (
+				74F3BB181ECC3FCD0033F584 /* EscrowTextView.swift */,
+				744004D41EDD6B31006B0C89 /* EscrowTableCell.swift */,
+			);
+			name = Escrow;
+			path = View/Escrow;
+			sourceTree = "<group>";
+		};
+		8C7D499E8193E46C8F5C5D33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8F454F0104204CB02B8D818 /* Pods-QueuedMusic-iPadAdmin.debug.xcconfig */,
+				A7FCF6ADC6870E8DB5D5F58A /* Pods-QueuedMusic-iPadAdmin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		742AA62A1EA5BD5300AC3685 /* QueuedMusic-iPadAdmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 742AA6561EA5BD5300AC3685 /* Build configuration list for PBXNativeTarget "QueuedMusic-iPadAdmin" */;
+			buildPhases = (
+				AC3C31DD3D20852D135B8489 /* [CP] Check Pods Manifest.lock */,
+				742AA6271EA5BD5300AC3685 /* Sources */,
+				742AA6281EA5BD5300AC3685 /* Frameworks */,
+				742AA6291EA5BD5300AC3685 /* Resources */,
+				44A546D4D6CD0F4E7462F1BF /* [CP] Embed Pods Frameworks */,
+				58A6F28333B43AD04B5DB46A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QueuedMusic-iPadAdmin";
+			productName = "QueuedMusic-iPadAdmin";
+			productReference = 742AA62B1EA5BD5300AC3685 /* QueuedMusic-iPadAdmin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		742AA6411EA5BD5300AC3685 /* QueuedMusic-iPadAdminTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 742AA6591EA5BD5300AC3685 /* Build configuration list for PBXNativeTarget "QueuedMusic-iPadAdminTests" */;
+			buildPhases = (
+				742AA63E1EA5BD5300AC3685 /* Sources */,
+				742AA63F1EA5BD5300AC3685 /* Frameworks */,
+				742AA6401EA5BD5300AC3685 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				742AA6441EA5BD5300AC3685 /* PBXTargetDependency */,
+			);
+			name = "QueuedMusic-iPadAdminTests";
+			productName = "QueuedMusic-iPadAdminTests";
+			productReference = 742AA6421EA5BD5300AC3685 /* QueuedMusic-iPadAdminTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		742AA64C1EA5BD5300AC3685 /* QueuedMusic-iPadAdminUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 742AA65C1EA5BD5300AC3685 /* Build configuration list for PBXNativeTarget "QueuedMusic-iPadAdminUITests" */;
+			buildPhases = (
+				742AA6491EA5BD5300AC3685 /* Sources */,
+				742AA64A1EA5BD5300AC3685 /* Frameworks */,
+				742AA64B1EA5BD5300AC3685 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				742AA64F1EA5BD5300AC3685 /* PBXTargetDependency */,
+			);
+			name = "QueuedMusic-iPadAdminUITests";
+			productName = "QueuedMusic-iPadAdminUITests";
+			productReference = 742AA64D1EA5BD5300AC3685 /* QueuedMusic-iPadAdminUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		742AA6231EA5BD5300AC3685 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Red Shepard LLC";
+				TargetAttributes = {
+					742AA62A1EA5BD5300AC3685 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2484854MT5;
+						ProvisioningStyle = Automatic;
+					};
+					742AA6411EA5BD5300AC3685 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2484854MT5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 742AA62A1EA5BD5300AC3685;
+					};
+					742AA64C1EA5BD5300AC3685 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2484854MT5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 742AA62A1EA5BD5300AC3685;
+					};
+				};
+			};
+			buildConfigurationList = 742AA6261EA5BD5300AC3685 /* Build configuration list for PBXProject "QueuedMusic-iPadAdmin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 742AA6221EA5BD5300AC3685;
+			productRefGroup = 742AA62C1EA5BD5300AC3685 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				742AA62A1EA5BD5300AC3685 /* QueuedMusic-iPadAdmin */,
+				742AA6411EA5BD5300AC3685 /* QueuedMusic-iPadAdminTests */,
+				742AA64C1EA5BD5300AC3685 /* QueuedMusic-iPadAdminUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		742AA6291EA5BD5300AC3685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				742AA63C1EA5BD5300AC3685 /* LaunchScreen.storyboard in Resources */,
+				7425FBC81EA70CED001188CC /* Home.storyboard in Resources */,
+				7418D59D1EA85B4600E0D2E1 /* Queue.storyboard in Resources */,
+				7444A3EE1EC46F0400CDF07C /* Onboarding.storyboard in Resources */,
+				7418D5A51EA85C1F00E0D2E1 /* Analytics.storyboard in Resources */,
+				749F9C781EE65F7F00654074 /* TakeoverView.xib in Resources */,
+				74ADB2861ECE804F0032EA11 /* PickerView.xib in Resources */,
+				74DC1C541EDBD16500E58D66 /* Account.storyboard in Resources */,
+				744004D31EDD58BC006B0C89 /* Setting.storyboard in Resources */,
+				7418D5951EA844AB00E0D2E1 /* AZTabBarController.xib in Resources */,
+				749F9C7A1EE6A32F00654074 /* TakeoverTableCell.xib in Resources */,
+				740BCD3F1EC151E300F33980 /* NotificationView.xib in Resources */,
+				742AA6631EA5BFC300AC3685 /* Assets.xcassets in Resources */,
+				742AA6341EA5BD5300AC3685 /* Main.storyboard in Resources */,
+				7418D5B11EA85D0E00E0D2E1 /* User.storyboard in Resources */,
+				7464E7131EE155DE00C2314C /* VenueView.xib in Resources */,
+				7418D5C01EA8915F00E0D2E1 /* AlertView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		742AA6401EA5BD5300AC3685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		742AA64B1EA5BD5300AC3685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44A546D4D6CD0F4E7462F1BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QueuedMusic-iPadAdmin/Pods-QueuedMusic-iPadAdmin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/AZSearchView/AZSearchView.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/BRYXBanner/BRYXBanner.framework",
+				"${BUILT_PRODUCTS_DIR}/BWWalkthrough/BWWalkthrough.framework",
+				"${BUILT_PRODUCTS_DIR}/BusyNavigationBar/BusyNavigationBar.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/CoreStore/CoreStore.framework",
+				"${BUILT_PRODUCTS_DIR}/DGElasticPullToRefresh/DGElasticPullToRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/EasyNotificationBadge/EasyNotificationBadge.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/HNKGooglePlacesAutocomplete/HNKGooglePlacesAutocomplete.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Mantle/Mantle.framework",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/Spotify-iOS-SDK/Spotify.framework",
+				"${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Whisper/Whisper.framework",
+				"${BUILT_PRODUCTS_DIR}/XCDYouTubeKit/XCDYouTubeKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AZSearchView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BRYXBanner.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BWWalkthrough.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BusyNavigationBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CoreStore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DGElasticPullToRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EasyNotificationBadge.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HNKGooglePlacesAutocomplete.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mantle.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spotify.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stripe.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Whisper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCDYouTubeKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QueuedMusic-iPadAdmin/Pods-QueuedMusic-iPadAdmin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58A6F28333B43AD04B5DB46A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QueuedMusic-iPadAdmin/Pods-QueuedMusic-iPadAdmin-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QueuedMusic-iPadAdmin/Pods-QueuedMusic-iPadAdmin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC3C31DD3D20852D135B8489 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QueuedMusic-iPadAdmin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		742AA6271EA5BD5300AC3685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7418D5C61EA8B23200E0D2E1 /* Extension.swift in Sources */,
+				7425FBC61EA6F57C001188CC /* LoginView.swift in Sources */,
+				749F9C771EE65F7F00654074 /* TakeoverView.swift in Sources */,
+				744C73021EA99C0000BC9DC2 /* AppSetting.swift in Sources */,
+				744C73051EA99C0000BC9DC2 /* SpotifyManager.swift in Sources */,
+				7418D5B31EA85D2B00E0D2E1 /* UserViewController.swift in Sources */,
+				742596A71EC95A5B000CD243 /* AddressDataModel.swift in Sources */,
+				744185A91EE2538B0060FB3F /* CustomerDataModel.swift in Sources */,
+				744004D51EDD6B31006B0C89 /* EscrowTableCell.swift in Sources */,
+				744588B81EC062E300AA792B /* ActivityView.swift in Sources */,
+				744C73081EA99C0000BC9DC2 /* Vote+CoreDataProperties.swift in Sources */,
+				742AA6371EA5BD5300AC3685 /* QueuedMusic_iPadAdmin.xcdatamodeld in Sources */,
+				742AA66E1EA60F0A00AC3685 /* WelcomeViewController.swift in Sources */,
+				745DB7F51ED2946F00B2842B /* HomeTrackCell.swift in Sources */,
+				740BCD3E1EC151E300F33980 /* NotificationView.swift in Sources */,
+				7418D5AF1EA85C9800E0D2E1 /* AnalyticsView.swift in Sources */,
+				74326EE01EC0028600642D3F /* CheckInCell.swift in Sources */,
+				7441CC571EAD9A7300F253B4 /* TrackCell.swift in Sources */,
+				7418D5BF1EA8915F00E0D2E1 /* AlertView.swift in Sources */,
+				74F3BB161ECBF9030033F584 /* EscrowSetupViewController.swift in Sources */,
+				744C731E1EA9A48D00BC9DC2 /* Style.swift in Sources */,
+				742596A51EC959E7000CD243 /* AddressCell.swift in Sources */,
+				7418D5B71EA85D6600E0D2E1 /* SettingViewController.swift in Sources */,
+				74EF6C761EEAA4F300B678BB /* CustomXAxisRenderer.swift in Sources */,
+				74ADB2851ECE804F0032EA11 /* PickerView.swift in Sources */,
+				742AA62F1EA5BD5300AC3685 /* AppDelegate.swift in Sources */,
+				7425FBC31EA6F40A001188CC /* LoginViewController.swift in Sources */,
+				7425FBCE1EA70D9E001188CC /* HomeView.swift in Sources */,
+				744C73061EA99C0000BC9DC2 /* VenueDataModel.swift in Sources */,
+				74DC1C571EDBDDD600E58D66 /* AccountViewController.swift in Sources */,
+				7418D5941EA844AB00E0D2E1 /* AZTabBarController.swift in Sources */,
+				7418D5B91EA85D8400E0D2E1 /* SettingView.swift in Sources */,
+				7418D5C21EA8946200E0D2E1 /* ModalAlertViewController.swift in Sources */,
+				7418D5C41EA8971F00E0D2E1 /* BaseViewController.swift in Sources */,
+				74F0AABD1ECC7A54002BDEF3 /* EscrowDataModel.swift in Sources */,
+				749F9C7C1EE6A35B00654074 /* TakeoverTableCell.swift in Sources */,
+				74326EDD1EBFFE9200642D3F /* CheckInDataModel.swift in Sources */,
+				744C730E1EA99C0000BC9DC2 /* UserDataModel.swift in Sources */,
+				744C73031EA99C0000BC9DC2 /* FirebaseManager.swift in Sources */,
+				7418D59B1EA8498D00E0D2E1 /* MainView.swift in Sources */,
+				7418D5AD1EA85C8E00E0D2E1 /* AnalyticsViewController.swift in Sources */,
+				7444A3F01EC4976400CDF07C /* OnboardingStartViewController.swift in Sources */,
+				743F851F1EC56342000CBFD9 /* BackgroundVideo.swift in Sources */,
+				7418D5A11EA85B8700E0D2E1 /* QueueViewController.swift in Sources */,
+				7464E7121EE155DE00C2314C /* VenueView.swift in Sources */,
+				743F851B1EC559B2000CBFD9 /* OnboardingVideoViewController.swift in Sources */,
+				7418D5B51EA85D4800E0D2E1 /* UserView.swift in Sources */,
+				7444A3EC1EC46BAB00CDF07C /* NewVenueViewController.swift in Sources */,
+				744C73041EA99C0000BC9DC2 /* GoogleAuth.swift in Sources */,
+				74D7A2CA1EFA72D5002CC3C2 /* LGAudioPlayer.swift in Sources */,
+				7425FBCC1EA70D6E001188CC /* HomeViewController.swift in Sources */,
+				744C73071EA99C0000BC9DC2 /* Vote+CoreDataClass.swift in Sources */,
+				742AA66B1EA60EC700AC3685 /* WelcomeView.swift in Sources */,
+				7418D5991EA8496500E0D2E1 /* MainViewController.swift in Sources */,
+				744004D11EDD565D006B0C89 /* EscrowAccountViewController.swift in Sources */,
+				74F3BB191ECC3FCD0033F584 /* EscrowTextView.swift in Sources */,
+				744C73091EA99C0000BC9DC2 /* QueueDataModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		742AA63E1EA5BD5300AC3685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				742AA6471EA5BD5300AC3685 /* QueuedMusic_iPadAdminTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		742AA6491EA5BD5300AC3685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				742AA6521EA5BD5300AC3685 /* QueuedMusic_iPadAdminUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		742AA6441EA5BD5300AC3685 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 742AA62A1EA5BD5300AC3685 /* QueuedMusic-iPadAdmin */;
+			targetProxy = 742AA6431EA5BD5300AC3685 /* PBXContainerItemProxy */;
+		};
+		742AA64F1EA5BD5300AC3685 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 742AA62A1EA5BD5300AC3685 /* QueuedMusic-iPadAdmin */;
+			targetProxy = 742AA64E1EA5BD5300AC3685 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		742AA6321EA5BD5300AC3685 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				742AA6331EA5BD5300AC3685 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		742AA63A1EA5BD5300AC3685 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				742AA63B1EA5BD5300AC3685 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		742AA6541EA5BD5300AC3685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		742AA6551EA5BD5300AC3685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		742AA6571EA5BD5300AC3685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8F454F0104204CB02B8D818 /* Pods-QueuedMusic-iPadAdmin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 2484854MT5;
+				INFOPLIST_FILE = "QueuedMusic-iPadAdmin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redshepardllc.com.us.QueuedMusic-iPadAdmin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QueuedMusic-iPadAdmin/BridgingHeader.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		742AA6581EA5BD5300AC3685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7FCF6ADC6870E8DB5D5F58A /* Pods-QueuedMusic-iPadAdmin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 2484854MT5;
+				INFOPLIST_FILE = "QueuedMusic-iPadAdmin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redshepardllc.com.us.QueuedMusic-iPadAdmin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QueuedMusic-iPadAdmin/BridgingHeader.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		742AA65A1EA5BD5300AC3685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2484854MT5;
+				INFOPLIST_FILE = "QueuedMusic-iPadAdminTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redshepardllc.com.us.QueuedMusic-iPadAdminTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QueuedMusic-iPadAdmin.app/QueuedMusic-iPadAdmin";
+			};
+			name = Debug;
+		};
+		742AA65B1EA5BD5300AC3685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2484854MT5;
+				INFOPLIST_FILE = "QueuedMusic-iPadAdminTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redshepardllc.com.us.QueuedMusic-iPadAdminTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QueuedMusic-iPadAdmin.app/QueuedMusic-iPadAdmin";
+			};
+			name = Release;
+		};
+		742AA65D1EA5BD5300AC3685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2484854MT5;
+				INFOPLIST_FILE = "QueuedMusic-iPadAdminUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redshepardllc.com.us.QueuedMusic-iPadAdminUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "QueuedMusic-iPadAdmin";
+			};
+			name = Debug;
+		};
+		742AA65E1EA5BD5300AC3685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2484854MT5;
+				INFOPLIST_FILE = "QueuedMusic-iPadAdminUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redshepardllc.com.us.QueuedMusic-iPadAdminUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "QueuedMusic-iPadAdmin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		742AA6261EA5BD5300AC3685 /* Build configuration list for PBXProject "QueuedMusic-iPadAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				742AA6541EA5BD5300AC3685 /* Debug */,
+				742AA6551EA5BD5300AC3685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		742AA6561EA5BD5300AC3685 /* Build configuration list for PBXNativeTarget "QueuedMusic-iPadAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				742AA6571EA5BD5300AC3685 /* Debug */,
+				742AA6581EA5BD5300AC3685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		742AA6591EA5BD5300AC3685 /* Build configuration list for PBXNativeTarget "QueuedMusic-iPadAdminTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				742AA65A1EA5BD5300AC3685 /* Debug */,
+				742AA65B1EA5BD5300AC3685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		742AA65C1EA5BD5300AC3685 /* Build configuration list for PBXNativeTarget "QueuedMusic-iPadAdminUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				742AA65D1EA5BD5300AC3685 /* Debug */,
+				742AA65E1EA5BD5300AC3685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		742AA6351EA5BD5300AC3685 /* QueuedMusic_iPadAdmin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				742AA6361EA5BD5300AC3685 /* QueuedMusic_iPadAdmin.xcdatamodel */,
+			);
+			currentVersion = 742AA6361EA5BD5300AC3685 /* QueuedMusic_iPadAdmin.xcdatamodel */;
+			path = QueuedMusic_iPadAdmin.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 742AA6231EA5BD5300AC3685 /* Project object */;
+}
