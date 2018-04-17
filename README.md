@@ -77,5 +77,5 @@ In order to run, you need to get a few things set up. Setup the accounts from th
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/rldaulton/queued-music/blob/master/LICENSE) file for details
+This project is licensed under the Apache 2.0 License - see the [LICENSE.md](https://github.com/rldaulton/queued-music/blob/master/LICENSE) file for details
 
