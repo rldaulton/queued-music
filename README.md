@@ -16,7 +16,11 @@ Read more information [on our website](https://www.redshepardsoftware.com/queued
 
 Queue'd is an application that creates a shared music queue, based on location. A 'venue' — for example, a bar — can create an account using the iPad Admin version of the app. This allows them to set up a location, and create a democratized music queue for others to 'check in' to, and begin adding music. 
 
+[See more on the iPad Admin app](https://www.queuedapp.com/host.html)
+
 The iPhone version of the app is for patrons — in this example, the bargoers. Users can sign in using Spotify, Google, or enter as a Guest. Once 'checked in' to their location of choice, users can see and manipulate the queue by voting, adding songs, or purchasing vote packages to boost their song selections.
+
+[See more on the iPhone app](https://www.queuedapp.com)
 
 ## Getting Started
 
