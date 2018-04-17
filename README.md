@@ -49,7 +49,7 @@ In order to run, you need to get a few things set up. Setup the accounts from th
 1. Create a Spotify Developer Account, to fully run the music system you will need Premium. Then, plug in your client id to the source code.
 2. Prepare a token exchange service (I used Heroku) and deploy the ruby files to run your exchange. Plug in your endpoints to the app.
 3. Create a Firebase project, include the `GoogleService-Info.plist` file from your project in the app files.
-4. Create a Stripe Account, and [include your keys[(https://github.com/rldaulton/queued-music/wiki/Adding-Your-Stripe-Information) in the source code. 
+4. Create a Stripe Account, and [include your keys](https://github.com/rldaulton/queued-music/wiki/Adding-Your-Stripe-Information) in the source code. 
 5. Using a backend service (I used GCP), create and deploy the necessary cloud functions to power Stripe transactions, queue manipulation and more.
 
 ## Built With
