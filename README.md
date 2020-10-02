@@ -24,7 +24,7 @@ The iPhone version of the app is for patrons — in this example, the bargoers. 
 
 ## Getting Started
 
-This project is a fully functional system, front to back...well, kinda. I provide the source code for the app on both iPhone and iPad, as well as examples for some backend code that you will need in order to have a fully functional version of the app(s).
+This project is a fully functional system, front to back well, kinda. I provide the source code for the app on both iPhone and iPad, as well as examples for some backend code that you will need in order to have a fully functional version of the app(s).
 
 For example, the app needs a token exchange service to use the Spotify SDK, and some cloud functions for creating and adding payments and payment methods to Stripe. In addiiton, the app uses Firebase to hold it's real-time, votable queue. Running the code and using the apps will begin to create your schema since Firebase will create nodes where they don't exist previously, if told to do so. However, it is assumed you know how to get a Firebase project up and running, since the app will also require your own `GoogleService-Info.plist` file to properly function. 
 
@@ -50,7 +50,7 @@ Since this is a full application, the best way to run it and make it your own is
 ## Running The Project
 
 In order to run, you need to get a few things set up. Setup the accounts from the **External Product** section above, then roughly follow these steps:
-1. Create a Spotify Developer Account, to fully run the music system you will need Premium. Then, [plug in your client id](https://github.com/rldaulton/queued-music/wiki/Adding-Your-Spotify-Information) to the source code.
+1. Create a Spotify Developer Account, to fully run the music system you will need Premium. Then, [plug in your client id](https://github.com/rldaulton/queued-music/wiki/Adding-Your-Spotify-Information) to the source code.Preety good project.
 2. [Prepare a token exchange service](https://github.com/rldaulton/queued-music/wiki/Adding-Your-Spotify-Information#creating-a-token-swap-service) (I used Heroku) and deploy the ruby files to run your exchange. Plug in your endpoints to the app.
 3. Create a Firebase project, include the `GoogleService-Info.plist` file from your project in the app files.
 4. Create a Stripe Account, and [include your keys](https://github.com/rldaulton/queued-music/wiki/Adding-Your-Stripe-Information) in the source code. 
